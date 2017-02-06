@@ -16,6 +16,9 @@
 		3F962E221DF0BD6B0058C33D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F962E201DF0BD6B0058C33D /* LaunchScreen.storyboard */; };
 		3F962E2D1DF0BD6B0058C33D /* BonfireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F962E2C1DF0BD6B0058C33D /* BonfireTests.swift */; };
 		3F962E391DF0C1810058C33D /* WorldScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F962E381DF0C1810058C33D /* WorldScene.swift */; };
+		3FA0550C1E37C2F90017603B /* RxSugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA0550B1E37C2F90017603B /* RxSugar.framework */; };
+		CB7232ADC8AA1825B0E32245 /* Pods_BonfireTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF29B320402ACB37BB7553ED /* Pods_BonfireTests.framework */; };
+		D2ED3BF3C2FFC337FFF38039 /* Pods_Bonfire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF469A0E73C41672BDA3E69D /* Pods_Bonfire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,14 @@
 		3F962E2C1DF0BD6B0058C33D /* BonfireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonfireTests.swift; sourceTree = "<group>"; };
 		3F962E2E1DF0BD6B0058C33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F962E381DF0C1810058C33D /* WorldScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldScene.swift; sourceTree = "<group>"; };
+		3FA055091E37C26A0017603B /* RxSugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSugar.framework; path = "../RxSugar/build/Debug-iphoneos/RxSugar.framework"; sourceTree = "<group>"; };
+		3FA0550B1E37C2F90017603B /* RxSugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSugar.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Bonfire-fmmbmabllqvirbemyumepmrizbpv/Build/Products/Debug-iphonesimulator/RxSugar.framework"; sourceTree = "<group>"; };
+		75CB279254E5BE4FA3716686 /* Pods-BonfireTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonfireTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BonfireTests/Pods-BonfireTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A125388AC0AA911C482515F /* Pods-Bonfire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bonfire.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bonfire/Pods-Bonfire.release.xcconfig"; sourceTree = "<group>"; };
+		8350BA89DAFFB0449800BA56 /* Pods-Bonfire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bonfire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bonfire/Pods-Bonfire.debug.xcconfig"; sourceTree = "<group>"; };
+		CF29B320402ACB37BB7553ED /* Pods_BonfireTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BonfireTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF469A0E73C41672BDA3E69D /* Pods_Bonfire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bonfire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF96BC1C7BE9B8E1B9CFAEB1 /* Pods-BonfireTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonfireTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BonfireTests/Pods-BonfireTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA0550C1E37C2F90017603B /* RxSugar.framework in Frameworks */,
 				3F860D3D1E2BC81A00DFC72E /* Bestiary.framework in Frameworks */,
+				D2ED3BF3C2FFC337FFF38039 /* Pods_Bonfire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7232ADC8AA1825B0E32245 /* Pods_BonfireTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +80,11 @@
 		3F860D3B1E2BC81A00DFC72E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FA0550B1E37C2F90017603B /* RxSugar.framework */,
+				3FA055091E37C26A0017603B /* RxSugar.framework */,
 				3F860D3C1E2BC81A00DFC72E /* Bestiary.framework */,
+				DF469A0E73C41672BDA3E69D /* Pods_Bonfire.framework */,
+				CF29B320402ACB37BB7553ED /* Pods_BonfireTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,6 +96,7 @@
 				3F962E2B1DF0BD6B0058C33D /* BonfireTests */,
 				3F962E0F1DF0BD6A0058C33D /* Products */,
 				3F860D3B1E2BC81A00DFC72E /* Frameworks */,
+				D7F2776991CA50A93081BD47 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +141,17 @@
 			path = Scenes;
 			sourceTree = "<group>";
 		};
+		D7F2776991CA50A93081BD47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8350BA89DAFFB0449800BA56 /* Pods-Bonfire.debug.xcconfig */,
+				7A125388AC0AA911C482515F /* Pods-Bonfire.release.xcconfig */,
+				FF96BC1C7BE9B8E1B9CFAEB1 /* Pods-BonfireTests.debug.xcconfig */,
+				75CB279254E5BE4FA3716686 /* Pods-BonfireTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F962E311DF0BD6B0058C33D /* Build configuration list for PBXNativeTarget "Bonfire" */;
 			buildPhases = (
+				ECF5165036333459D277200A /* [CP] Check Pods Manifest.lock */,
 				3F962E0A1DF0BD6A0058C33D /* Sources */,
 				3F962E0B1DF0BD6A0058C33D /* Frameworks */,
 				3F962E0C1DF0BD6A0058C33D /* Resources */,
+				C380D01E1204BCB95813679E /* [CP] Embed Pods Frameworks */,
+				D9169924E3D993EEF44442FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F962E341DF0BD6B0058C33D /* Build configuration list for PBXNativeTarget "BonfireTests" */;
 			buildPhases = (
+				4E720A531D58AE1E84EF5A1A /* [CP] Check Pods Manifest.lock */,
 				3F962E241DF0BD6B0058C33D /* Sources */,
 				3F962E251DF0BD6B0058C33D /* Frameworks */,
 				3F962E261DF0BD6B0058C33D /* Resources */,
+				4447CE9ED67D0D3520198A40 /* [CP] Embed Pods Frameworks */,
+				3449C20FC37523871C8A2C42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,6 +257,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3449C20FC37523871C8A2C42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BonfireTests/Pods-BonfireTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4447CE9ED67D0D3520198A40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BonfireTests/Pods-BonfireTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E720A531D58AE1E84EF5A1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C380D01E1204BCB95813679E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bonfire/Pods-Bonfire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9169924E3D993EEF44442FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bonfire/Pods-Bonfire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF5165036333459D277200A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F962E0A1DF0BD6A0058C33D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -288,6 +417,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -337,6 +467,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -363,7 +494,9 @@
 		};
 		3F962E321DF0BD6B0058C33D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8350BA89DAFFB0449800BA56 /* Pods-Bonfire.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Bonfire/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
@@ -376,7 +509,9 @@
 		};
 		3F962E331DF0BD6B0058C33D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A125388AC0AA911C482515F /* Pods-Bonfire.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Bonfire/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
@@ -389,6 +524,7 @@
 		};
 		3F962E351DF0BD6B0058C33D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF96BC1C7BE9B8E1B9CFAEB1 /* Pods-BonfireTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -403,6 +539,7 @@
 		};
 		3F962E361DF0BD6B0058C33D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75CB279254E5BE4FA3716686 /* Pods-BonfireTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

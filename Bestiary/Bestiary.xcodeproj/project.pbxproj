@@ -16,6 +16,9 @@
 		3F860D461E2BCE6A00DFC72E /* GKEntityComponentsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F860D451E2BCE6A00DFC72E /* GKEntityComponentsExtension.swift */; };
 		3F860D491E2C06C300DFC72E /* GoToBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F860D481E2C06C300DFC72E /* GoToBehavior.swift */; };
 		3F860D4B1E2C13D700DFC72E /* GoToComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F860D4A1E2C13D700DFC72E /* GoToComponent.swift */; };
+		3FA0550E1E3808120017603B /* RxSugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA0550D1E3808120017603B /* RxSugar.framework */; };
+		3FB993D01E3A600700DC9AC3 /* MathFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB993CF1E3A600700DC9AC3 /* MathFunctions.swift */; };
+		E2CEA535F8B47D7B79030158 /* Pods_Bestiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120C6037EE5E1BEA7C4FBA6E /* Pods_Bestiary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		120C6037EE5E1BEA7C4FBA6E /* Pods_Bestiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bestiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F860D151E2BC5EB00DFC72E /* Bestiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bestiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F860D181E2BC5EB00DFC72E /* Bestiary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bestiary.h; sourceTree = "<group>"; };
 		3F860D191E2BC5EB00DFC72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,6 +45,10 @@
 		3F860D451E2BCE6A00DFC72E /* GKEntityComponentsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKEntityComponentsExtension.swift; sourceTree = "<group>"; };
 		3F860D481E2C06C300DFC72E /* GoToBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoToBehavior.swift; sourceTree = "<group>"; };
 		3F860D4A1E2C13D700DFC72E /* GoToComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoToComponent.swift; sourceTree = "<group>"; };
+		3FA0550D1E3808120017603B /* RxSugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSugar.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Bonfire-fmmbmabllqvirbemyumepmrizbpv/Build/Products/Debug-iphonesimulator/RxSugar.framework"; sourceTree = "<group>"; };
+		3FB993CF1E3A600700DC9AC3 /* MathFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathFunctions.swift; sourceTree = "<group>"; };
+		A1BB877F1EF37906676FC6EF /* Pods-Bestiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bestiary.debug.xcconfig"; path = "../Bonfire/Pods/Target Support Files/Pods-Bestiary/Pods-Bestiary.debug.xcconfig"; sourceTree = "<group>"; };
+		BCEBFBB69B55BC97B1F8EB1D /* Pods-Bestiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bestiary.release.xcconfig"; path = "../Bonfire/Pods/Target Support Files/Pods-Bestiary/Pods-Bestiary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA0550E1E3808120017603B /* RxSugar.framework in Frameworks */,
+				E2CEA535F8B47D7B79030158 /* Pods_Bestiary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +78,8 @@
 				3F860D171E2BC5EB00DFC72E /* Bestiary */,
 				3F860D221E2BC5EB00DFC72E /* BestiaryTests */,
 				3F860D161E2BC5EB00DFC72E /* Products */,
+				E867C486BE2BC11F97EB68F2 /* Pods */,
+				7339844134892AC98D86D9D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				3F860D451E2BCE6A00DFC72E /* GKEntityComponentsExtension.swift */,
+				3FB993CF1E3A600700DC9AC3 /* MathFunctions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -142,6 +155,24 @@
 				3F860D481E2C06C300DFC72E /* GoToBehavior.swift */,
 			);
 			path = Behaviors;
+			sourceTree = "<group>";
+		};
+		7339844134892AC98D86D9D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FA0550D1E3808120017603B /* RxSugar.framework */,
+				120C6037EE5E1BEA7C4FBA6E /* Pods_Bestiary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E867C486BE2BC11F97EB68F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1BB877F1EF37906676FC6EF /* Pods-Bestiary.debug.xcconfig */,
+				BCEBFBB69B55BC97B1F8EB1D /* Pods-Bestiary.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,10 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F860D291E2BC5EB00DFC72E /* Build configuration list for PBXNativeTarget "Bestiary" */;
 			buildPhases = (
+				39B47B59E2D12FC336848810 /* [CP] Check Pods Manifest.lock */,
 				3F860D101E2BC5EB00DFC72E /* Sources */,
 				3F860D111E2BC5EB00DFC72E /* Frameworks */,
 				3F860D121E2BC5EB00DFC72E /* Headers */,
 				3F860D131E2BC5EB00DFC72E /* Resources */,
+				568B5D3204D4DDCD1AD5108C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +283,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39B47B59E2D12FC336848810 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		568B5D3204D4DDCD1AD5108C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Bonfire/Pods/Target Support Files/Pods-Bestiary/Pods-Bestiary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F860D101E2BC5EB00DFC72E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,6 +325,7 @@
 				3F860D3A1E2BC66800DFC72E /* SpriteComponent.swift in Sources */,
 				3F860D4B1E2C13D700DFC72E /* GoToComponent.swift in Sources */,
 				3F860D401E2BCABA00DFC72E /* MainCharEntity.swift in Sources */,
+				3FB993D01E3A600700DC9AC3 /* MathFunctions.swift in Sources */,
 				3F860D461E2BCE6A00DFC72E /* GKEntityComponentsExtension.swift in Sources */,
 				3F860D431E2BCD4C00DFC72E /* EntityRenderer.swift in Sources */,
 			);
@@ -384,6 +451,7 @@
 		};
 		3F860D2A1E2BC5EB00DFC72E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BB877F1EF37906676FC6EF /* Pods-Bestiary.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -405,6 +473,7 @@
 		};
 		3F860D2B1E2BC5EB00DFC72E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEBFBB69B55BC97B1F8EB1D /* Pods-Bestiary.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;

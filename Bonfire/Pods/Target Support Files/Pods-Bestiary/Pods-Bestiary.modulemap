@@ -1,0 +1,6 @@
+framework module Pods_Bestiary {
+  umbrella header "Pods-Bestiary-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,6 +8,7 @@
 
 import SpriteKit
 import GameplayKit
+import RxSwift
 
 public class SpriteComponent: GKComponent {
     
@@ -21,5 +22,4 @@ public class SpriteComponent: GKComponent {
     public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented yet")
     }
-    
 }

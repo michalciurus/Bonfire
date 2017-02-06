@@ -17,6 +17,7 @@ public class GoToBehavior: GKBehavior {
         super.init()
         let coordAgent = GKAgent2D()
         coordAgent.position = coordinate
+        coordAgent.radius = 20
         currentTarget = coordAgent
         self.setGoToGoal()
     }

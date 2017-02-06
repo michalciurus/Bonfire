@@ -8,24 +8,30 @@
 
 import SpriteKit
 import GameplayKit
+import RxSugar
+import RxSwift
 
 private struct GoToComponentConstants {
-    static let goToGoalAcceptedMargin: Float = 1.0;
+    static let goToGoalAcceptedMargin: Float = 10.0;
 }
 
 public class GoToComponent: GKAgent2D, GKAgentDelegate {
     
-    private typealias C = GoToComponentConstants
+    public let didReachGoal: CompletionEvent<Void> = CompletionEvent()
     
+    private typealias C = GoToComponentConstants
     private let currentGoToTarget: vector_float2
     
-    init(coordinate: vector_float2) {
+    public init(startPosition: vector_float2, startRotation: Float, coordinate: vector_float2) {
         self.currentGoToTarget = coordinate
         super.init()
         self.delegate = self
-        self.maxSpeed = 100
-        self.maxAcceleration = 50
-        self.radius = radius
+        self.maxSpeed = 200
+        self.maxAcceleration = 150
+        self.mass = 0.3
+        self.radius = 40
+        position = startPosition
+        rotation = startRotation
         behavior = GoToBehavior(coordinate: coordinate)
     }
     
@@ -34,15 +40,16 @@ public class GoToComponent: GKAgent2D, GKAgentDelegate {
     }
     
     public func agentWillUpdate(_ agent: GKAgent) {
-        entity?.getSpriteComponent() {
-            self.position = float2(x: Float($0.node.position.x), y: Float($0.node.position.x))
-        }
+        
     }
     
     public func agentDidUpdate(_ agent: GKAgent) {
         entity?.getSpriteComponent() {
             $0.node.position = CGPoint(x: CGFloat(position.x), y: CGFloat(position.y))
             $0.node.zRotation = CGFloat(rotation)
+            if (didReachGoToGoal()) {
+                didReachGoal.fireEvent(element: ())
+            }
         }
     }
     

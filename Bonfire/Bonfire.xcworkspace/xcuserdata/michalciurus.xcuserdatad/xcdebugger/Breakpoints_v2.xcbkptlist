@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Bonfire/Scenes/WorldScene.swift"
-            timestampString = "506206577.761355"
+            filePath = "../RxSugar/RxSugar/HotEventObservable.swift"
+            timestampString = "506988518.75474"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "WorldScene"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "HotEventObservable"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,14 +25,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Bestiary/Bestiary/Managers/EntityRenderer.swift"
-            timestampString = "506206817.166853"
+            filePath = "../Bestiary/Bestiary/Components/GoToComponent.swift"
+            timestampString = "507128723.749737"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "update(delta:)"
-            landmarkType = "7">
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "GoToComponent"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,43 +42,59 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Bestiary/Bestiary/Components/GoToComponent.swift"
-            timestampString = "506960739.765794"
+            timestampString = "507139752.994022"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "agentDidUpdate(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Bestiary/Bestiary/Entity/MainCharEntity.swift"
+            timestampString = "507142337.607067"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "finishCurrentMovement()"
             landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Bestiary.GoToComponent.agentDidUpdate (__ObjC.GKAgent) -&gt; ()"
+                  symbolName = "Bestiary.MainCharEntity.finishCurrentMovement () -&gt; ()"
                   moduleName = "Bestiary"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michalciurus/Desktop/BonfireGame/Bestiary/Bestiary/Components/GoToComponent.swift"
-                  timestampString = "506207088.578718"
+                  urlString = "file:///Users/michalciurus/Desktop/Repositories/Bonfire/Bestiary/Bestiary/Entity/MainCharEntity.swift"
+                  timestampString = "507134032.833135"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "19">
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "12">
                </Location>
                <Location
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Bestiary.GoToComponent.(agentDidUpdate (__ObjC.GKAgent) -&gt; ()).(closure #1)"
+                  symbolName = "Bestiary.MainCharEntity.finishCurrentMovement () -&gt; ()"
                   moduleName = "Bestiary"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michalciurus/Desktop/BonfireGame/Bestiary/Bestiary/Components/GoToComponent.swift"
-                  timestampString = "506207088.580467"
+                  urlString = "file:///Users/michalciurus/Desktop/Repositories/Bonfire/Bestiary/Bestiary/Entity/MainCharEntity.swift"
+                  timestampString = "507134032.834955"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "16">
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "63">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -89,13 +105,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Bestiary/Bestiary/Components/GoToComponent.swift"
-            timestampString = "506960739.765794"
+            filePath = "../Bestiary/Bestiary/Entity/MainCharEntity.swift"
+            timestampString = "507142337.607067"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "agentDidUpdate(_:)"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "finishCurrentMovement()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -105,13 +121,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Bestiary/Bestiary/Components/GoToComponent.swift"
-            timestampString = "506960739.765794"
+            filePath = "../Bestiary/Bestiary/Entity/MainCharEntity.swift"
+            timestampString = "507142337.607067"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "init(coordinate:)"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "finishCurrentMovement()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -121,13 +137,45 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Bestiary/Bestiary/Components/GoToComponent.swift"
-            timestampString = "506960749.608766"
+            filePath = "Bonfire/Scenes/WorldScene.swift"
+            timestampString = "507134630.266674"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "agentWillUpdate(_:)"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "didTap(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Bestiary/Bestiary/Entity/MainCharEntity.swift"
+            timestampString = "507142337.607067"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "goTo(destination:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bonfire/Scenes/WorldScene.swift"
+            timestampString = "507135313.414648"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "didTap(sender:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

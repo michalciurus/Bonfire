@@ -5,6 +5,12 @@
       location = "group:../Bestiary/Bestiary.xcodeproj">
    </FileRef>
    <FileRef
-      location = "container:Bonfire.xcodeproj">
+      location = "group:Bonfire.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../RxSugar/RxSugar.xcodeproj">
    </FileRef>
 </Workspace>
