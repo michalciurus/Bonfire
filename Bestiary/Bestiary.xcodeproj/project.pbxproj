@@ -17,6 +17,7 @@
 		3F860D491E2C06C300DFC72E /* GoToBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F860D481E2C06C300DFC72E /* GoToBehavior.swift */; };
 		3F860D4B1E2C13D700DFC72E /* GoToComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F860D4A1E2C13D700DFC72E /* GoToComponent.swift */; };
 		3FA0550E1E3808120017603B /* RxSugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA0550D1E3808120017603B /* RxSugar.framework */; };
+		3FAA758B1E8AA8940075EB3D /* ZombieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA758A1E8AA8940075EB3D /* ZombieEntity.swift */; };
 		3FB993D01E3A600700DC9AC3 /* MathFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB993CF1E3A600700DC9AC3 /* MathFunctions.swift */; };
 		E2CEA535F8B47D7B79030158 /* Pods_Bestiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120C6037EE5E1BEA7C4FBA6E /* Pods_Bestiary.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		3F860D481E2C06C300DFC72E /* GoToBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoToBehavior.swift; sourceTree = "<group>"; };
 		3F860D4A1E2C13D700DFC72E /* GoToComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoToComponent.swift; sourceTree = "<group>"; };
 		3FA0550D1E3808120017603B /* RxSugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSugar.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Bonfire-fmmbmabllqvirbemyumepmrizbpv/Build/Products/Debug-iphonesimulator/RxSugar.framework"; sourceTree = "<group>"; };
+		3FAA758A1E8AA8940075EB3D /* ZombieEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZombieEntity.swift; sourceTree = "<group>"; };
 		3FB993CF1E3A600700DC9AC3 /* MathFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathFunctions.swift; sourceTree = "<group>"; };
 		A1BB877F1EF37906676FC6EF /* Pods-Bestiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bestiary.debug.xcconfig"; path = "../Bonfire/Pods/Target Support Files/Pods-Bestiary/Pods-Bestiary.debug.xcconfig"; sourceTree = "<group>"; };
 		BCEBFBB69B55BC97B1F8EB1D /* Pods-Bestiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bestiary.release.xcconfig"; path = "../Bonfire/Pods/Target Support Files/Pods-Bestiary/Pods-Bestiary.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				3F860D3F1E2BCABA00DFC72E /* MainCharEntity.swift */,
+				3FAA758A1E8AA8940075EB3D /* ZombieEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FAA758B1E8AA8940075EB3D /* ZombieEntity.swift in Sources */,
 				3F860D491E2C06C300DFC72E /* GoToBehavior.swift in Sources */,
 				3F860D3A1E2BC66800DFC72E /* SpriteComponent.swift in Sources */,
 				3F860D4B1E2C13D700DFC72E /* GoToComponent.swift in Sources */,

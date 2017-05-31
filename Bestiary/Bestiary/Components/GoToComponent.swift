@@ -12,7 +12,7 @@ import RxSugar
 import RxSwift
 
 private struct GoToComponentConstants {
-    static let goToGoalAcceptedMargin: Float = 10.0;
+    static let goToGoalAcceptedMargin: Float = 30.0;
 }
 
 public class GoToComponent: GKAgent2D, GKAgentDelegate {
@@ -27,8 +27,9 @@ public class GoToComponent: GKAgent2D, GKAgentDelegate {
         super.init()
         self.delegate = self
         self.maxSpeed = 200
-        self.maxAcceleration = 150
-        self.mass = 0.3
+        self.maxAcceleration = 100
+        self.mass = 0.1
+        self.speed = 100
         self.radius = 40
         position = startPosition
         rotation = startRotation
@@ -44,6 +45,7 @@ public class GoToComponent: GKAgent2D, GKAgentDelegate {
     }
     
     public func agentDidUpdate(_ agent: GKAgent) {
+        self.speed = 100
         entity?.getSpriteComponent() {
             $0.node.position = CGPoint(x: CGFloat(position.x), y: CGFloat(position.y))
             $0.node.zRotation = CGFloat(rotation)
@@ -56,6 +58,4 @@ public class GoToComponent: GKAgent2D, GKAgentDelegate {
     public func didReachGoToGoal() -> Bool {
         return distance(currentGoToTarget, self.position) <= C.goToGoalAcceptedMargin
     }
-    
-    
 }

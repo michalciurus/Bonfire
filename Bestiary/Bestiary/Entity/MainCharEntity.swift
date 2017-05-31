@@ -14,7 +14,7 @@ public class MainCharEntity: GKEntity {
     
     private var currentMovementComponent: GKAgent2D?
     private let spriteComponent: SpriteComponent
-    private var disposeBag = DisposeBag()
+    private var currentMovementComponentBag = DisposeBag()
     
     public init(texture: SKTexture) {
         spriteComponent = SpriteComponent(texture: texture)
@@ -29,13 +29,14 @@ public class MainCharEntity: GKEntity {
         goToComponent.didReachGoal
             .subscribe(onNext: { [weak self] _ in
                 self?.finishCurrentMovement()
-            }).addDisposableTo(disposeBag)
+            }).addDisposableTo(currentMovementComponentBag)
         addComponent(goToComponent)
     }
     
     public func finishCurrentMovement() {
         if let currentMovement = currentMovementComponent {
             removeComponent(ofType: type(of: currentMovement))
+            currentMovementComponentBag = DisposeBag()
         }
     }
     

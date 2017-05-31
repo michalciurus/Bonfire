@@ -17,6 +17,7 @@
 		3F962E2D1DF0BD6B0058C33D /* BonfireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F962E2C1DF0BD6B0058C33D /* BonfireTests.swift */; };
 		3F962E391DF0C1810058C33D /* WorldScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F962E381DF0C1810058C33D /* WorldScene.swift */; };
 		3FA0550C1E37C2F90017603B /* RxSugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA0550B1E37C2F90017603B /* RxSugar.framework */; };
+		3FAA758E1E8ABEA70075EB3D /* WallNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA758D1E8ABEA70075EB3D /* WallNode.swift */; };
 		CB7232ADC8AA1825B0E32245 /* Pods_BonfireTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF29B320402ACB37BB7553ED /* Pods_BonfireTests.framework */; };
 		D2ED3BF3C2FFC337FFF38039 /* Pods_Bonfire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF469A0E73C41672BDA3E69D /* Pods_Bonfire.framework */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		3F962E381DF0C1810058C33D /* WorldScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldScene.swift; sourceTree = "<group>"; };
 		3FA055091E37C26A0017603B /* RxSugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSugar.framework; path = "../RxSugar/build/Debug-iphoneos/RxSugar.framework"; sourceTree = "<group>"; };
 		3FA0550B1E37C2F90017603B /* RxSugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSugar.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Bonfire-fmmbmabllqvirbemyumepmrizbpv/Build/Products/Debug-iphonesimulator/RxSugar.framework"; sourceTree = "<group>"; };
+		3FAA758D1E8ABEA70075EB3D /* WallNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallNode.swift; sourceTree = "<group>"; };
 		75CB279254E5BE4FA3716686 /* Pods-BonfireTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonfireTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BonfireTests/Pods-BonfireTests.release.xcconfig"; sourceTree = "<group>"; };
 		7A125388AC0AA911C482515F /* Pods-Bonfire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bonfire.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bonfire/Pods-Bonfire.release.xcconfig"; sourceTree = "<group>"; };
 		8350BA89DAFFB0449800BA56 /* Pods-Bonfire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bonfire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bonfire/Pods-Bonfire.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		3F962E101DF0BD6A0058C33D /* Bonfire */ = {
 			isa = PBXGroup;
 			children = (
+				3FAA758C1E8ABE800075EB3D /* Nodes */,
 				3F962E371DF0C1650058C33D /* Scenes */,
 				3F962E111DF0BD6A0058C33D /* AppDelegate.swift */,
 				3F962E191DF0BD6B0058C33D /* GameViewController.swift */,
@@ -139,6 +142,14 @@
 				3F860D081E2BBC4800DFC72E /* WorldScene.sks */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3FAA758C1E8ABE800075EB3D /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				3FAA758D1E8ABEA70075EB3D /* WallNode.swift */,
+			);
+			path = Nodes;
 			sourceTree = "<group>";
 		};
 		D7F2776991CA50A93081BD47 /* Pods */ = {
@@ -358,6 +369,7 @@
 				3F962E391DF0C1810058C33D /* WorldScene.swift in Sources */,
 				3F962E1A1DF0BD6B0058C33D /* GameViewController.swift in Sources */,
 				3F962E121DF0BD6A0058C33D /* AppDelegate.swift in Sources */,
+				3FAA758E1E8ABEA70075EB3D /* WallNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,24 +14,20 @@ class WorldScene: SKScene {
     
     var entityRenderer: EntityRenderer!
     var lastUpdateTime: TimeInterval?
-    var tapGesture: UITapGestureRecognizer!
     var mainChar: MainCharEntity!
     
+    override func sceneDidLoad() {
+        super.sceneDidLoad()
+        
+        let walls = SKNode.obsta
+    }
+    
     override func didMove(to view: SKView) {
-        
-        tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTap))
-        view.addGestureRecognizer(tapGesture)
-        
         self.entityRenderer = EntityRenderer(scene: self)
-        mainChar = MainCharEntity(texture: SKTexture(image: #imageLiteral(resourceName: "mainchar")))
+        mainChar = MainCharEntity(texture: SKTexture(imageNamed: "mainchar"))
         entityRenderer.add(entity: mainChar)
     }
     
-    func didTap(sender: UIGestureRecognizer) {
-        var touchLocation = sender.location(in: sender.view)
-        touchLocation = self.convertPoint(fromView: touchLocation)
-//        mainChar.goTo(destination: vector2(Float(touchLocation.x), Float(touchLocation.y)))
-    }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let touch = touches[touches.startIndex]
